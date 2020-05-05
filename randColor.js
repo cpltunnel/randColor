@@ -1,5 +1,4 @@
 window.onload = function(){
-  var style = document.getElementById("style");
   var randButton = document.getElementById("randButton");
   randButton.onclick = function(){
 	  var hexNum = "0123456789ABCDEF";
@@ -8,6 +7,6 @@ window.onload = function(){
 		return randNum;
 	  }
 	  var randHex = hexNum.charAt(randGen()) + hexNum.charAt(randGen()) + hexNum.charAt(randGen()) + hexNum.charAt(randGen()) + hexNum.charAt(randGen()) + hexNum.charAt(randGen());
-	  document.body.style = "background-color: #" + randHex + ";"
+	  document.body.style = "background-color: #" + randHex + ";";
   };
 };
