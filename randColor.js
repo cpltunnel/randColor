@@ -8,6 +8,6 @@ window.onload = function(){
 		return randNum;
 	  }
 	  var randHex = hexNum.charAt(randGen()) + hexNum.charAt(randGen()) + hexNum.charAt(randGen()) + hexNum.charAt(randGen()) + hexNum.charAt(randGen()) + hexNum.charAt(randGen());
-	  style.innerHTML = "body {background-color: #" + randHex + ";}"
+	  document.body.style = "background-color: #" + randHex + ";"
   };
 };

@@ -4,11 +4,21 @@
 <meta charset="utf-8">
 <title>Color Randomizer</title>
 <style id="style">
-	body {background-color: #FFFFFF;}
+	body {
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	}
+	button {
+	  font-family: papyrus;
+	  font-size: 2em;
+	  width: 150px;
+	  height: 150px;
+	}
 </style>
 <script src="randColor.js"></script>
 </head>
-<body  style="display: flex; align-items: center; justify-content: center">
-	<button id="randButton" style="font-family: papyrus; font-size: 2em; width: 150px; height: 150px;">Color Change!</button>
+<body>
+	<button id="randButton">Color Change!</button>
 </body>
 </html>
